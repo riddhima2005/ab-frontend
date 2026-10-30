@@ -39,6 +39,7 @@ export default function App() {
   return (
     <div style={{ maxWidth: 600, margin: "40px auto", fontFamily: "sans-serif" }}>
       <h1>A/B Test Checker</h1>
+      <p style={{ color: "#666" }}>The first run may take 30 to 60 seconds while the free server wakes up.</p>
 
       {fields.map(([key, label]) => (
         <div key={key} style={{ marginBottom: 12 }}>
